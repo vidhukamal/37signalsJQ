@@ -67,8 +67,28 @@ ul{
 	display:inline;
 	
 }
-.camp .arrow{
-	
+#base .arrow1{
+	position:absolute;
+	margin-bottom: 0;
+	margin-left:-160px;
+	float:left;
+}
+#High .arrow2{
+	position:absolute;
+	margin-bottom: 0;
+	margin-left:60px;
+	float:right;
+}
+#camp .arrow3{
+	position:absolute;
+	margin-bottom: 0;
+	margin-left:180px;
+	float:right;
+	-webkit-transform: rotate(345deg);
+	 
+
+    
+
 }
 a:hover{
 	color:blue;
@@ -90,6 +110,10 @@ a:hover{
 	margin: 0;
 	
 	
+}
+div #container{
+	position:relative;
+	height:300px;
 }
 #base{
 	text-align:center;
@@ -145,12 +169,7 @@ a .boxed img{
  	font-weight: 900px;
  	color:gray;
  }
- a.boxed .arrow{
-	float:right;
-	margin-left: 100px;
-	
-	
-}
+ 
 
 	
 #base h1{
