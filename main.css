@@ -82,13 +82,13 @@ ul{
 #camp .arrow3{
 	position:absolute;
 	margin-bottom: 0;
-	margin-left:180px;
-	float:right;
-	-webkit-transform: rotate(345deg);
-	 
+	margin-left:90px;
+	float:right; 
 
-    
-
+}
+.color{
+	text-decoration: underline;
+	color: blue;
 }
 a:hover{
 	color:blue;
