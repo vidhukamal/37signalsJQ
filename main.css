@@ -67,19 +67,36 @@ ul{
 	display:inline;
 	
 }
+.main{
+	height: 200;
+}
+#base{
+	height:200;
+	
+}
+#High{
+	height: 200;
+}
+#camp{
+	height: 200;
+}
+
 #base .arrow1{
+	
 	position:absolute;
 	margin-bottom: 0;
 	margin-left:-160px;
 	float:left;
 }
 #High .arrow2{
+	
 	position:absolute;
 	margin-bottom: 0;
 	margin-left:60px;
 	float:right;
 }
 #camp .arrow3{
+	
 	position:absolute;
 	margin-bottom: 0;
 	margin-left:90px;
@@ -152,6 +169,7 @@ a .boxed:hover{
 .center{
 	margin:0 auto;
 	width:666px;
+	height:500px;
 }
 a .boxed img{
 	text-align: center;
